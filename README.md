@@ -1,18 +1,14 @@
 # CMU Kids Corpus Annotations
 
-**Children's Reading Assessment** is the task of evaluating the correctness of a child's read 
-aloud speech of a passage. The main goal is to provide meaningful feedback of the read speech so that it can 
-be used to improve their reading fluency. 
+**Children's Reading Assessment** is the task of evaluating the correctness of a child's read aloud speech of a passage. The main goal is to provide meaningful feedback of the read speech so that it can be used to improve their reading fluency. 
 
-**Mispronounciation and Disfluency Detection and Classification** thus becomes an 
-important step to achieve this goal. This is a very challenging problem because of two reasons:
+**Disfluency Detection and Classification** thus becomes an important step to achieve this goal. This is a very challenging problem because of two reasons:
 
 - Fewer number of datasets that have children's speech
 - Lack of task-oriented annotations in the existing datasets 
 
 This repository provides a simple script `annotate_cmuk.py` that uses a novel labelling scheme for the [CMU Kids Corpus](https://catalog.ldc.upenn.edu/LDC97S63) 
-as well as the final labels `cmuk_labels.csv` generated based on the proposed scheme. The main motivation is to encourage future work
-towards collecting more children’s speech datasets for building robust reading assessment models
+as well as the final labels `cmuk_labels.csv` generated based on the proposed scheme. The main motivation is to encourage future work towards collecting more children’s speech datasets for building robust reading assessment models.
 
 
 **Prerequisites:** [Python](https://www.python.org/downloads/)
