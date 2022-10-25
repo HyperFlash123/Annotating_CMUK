@@ -4,7 +4,7 @@
 aloud speech of a passage. The main goal is to provide meaningful feedback of the read speech so that it can 
 be used to improve their reading fluency. 
 
-**Mispronounciation Detection and Disfluency Detection** thus becomes an 
+**Mispronounciation and Disfluency Detection and Classification** thus becomes an 
 important step to achieve this goal. This is a very challenging problem because of two reasons:
 
 - Fewer number of datasets that have children's speech
